@@ -1,16 +1,222 @@
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1080, initial-scale=1.0">
+    <meta name="viewport" content="width=1200, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>test</title>
+    <title>肖俊全的个人站点</title>
+
+<style  type="text/css">
+    /*css 初始化 */
+    html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+        margin: 0;
+        padding: 0;
+    }
+    ul,li{
+        list-style: none;
+    }
+
+
+    body{
+        font-family: "Microsoft YaHei","SimSun";
+        height: 100%
+    }
+    .inner_c{
+        width: 1200px;
+        margin: 0 auto;
+
+    }
+    .contet{
+        height:850px;
+        padding-top: 100px;
+        //background-color: #0a6cd6;
+
+
+
+    }
+    .contet .left{
+        float: left;
+        height: 400px;
+        width: 400px;
+        background-color: #2b2e4a;
+
+
+    }
+    .contet .center{
+        float: left;
+        height: 400px;
+        width: 400px;
+        background-color: #903749;
+    }
+
+    .contet .right{
+        float: left;
+        height: 400px;
+        width: 400px;
+        background-color: #53354a;
+    }
+
+    .contet{
+        background: url("image/indexmainbg.jpg") no-repeat center bottom;
+
+    }
+    .contet h3{
+        width: 150px;
+        line-height: 55px;
+        text-align: center;
+        color: #F2F4FD;
+        background-color: #e84545;
+        margin: 0 auto;
+        margin-bottom: 15px
+    }
+
+    .contet ul{
+        padding: 0 20px;
+    }
+    .contet ul li{
+        border-bottom: 1px solid #8f949a;
+
+    }
+    .contet ul li a{
+        font-size: 14px;
+        color: #fef1ec;
+        padding: 0 20px;
+        line-height: 44px;
+        text-decoration: none;
+    }
+    .contet ul li a:hover{
+        color: #e84545;
+    }
+    .contet .left ul li{
+        border-bottom: 1px solid #3b3e5a;
+    }
+    .contet .center ul li{
+        border-bottom: 1px solid #a04759;
+    }
+    .contet .right ul li{
+        border-bottom: 1px solid #63455a;
+    }
+    /*以下为header*/
+
+    .header{
+        height: 58px;
+        background-color: #191D3A;
+    }
+    .header .logo{
+        float: left;
+        width: 300px;
+        height: 58px;
+
+
+    }
+    .header .logo a{
+        //display: block;
+        color: whitesmoke;
+        text-decoration: none;
+        text-indent: -999em;
+        line-height: 58px;
+        text-align: center;
+
+    }
+
+    .header .nav {
+        float: left;
+        width: 750px;
+        height: 58px;
+       // background-color: #191D3A;
+        margin-left:150px ;
+
+    }
+
+    .header .nav ul li{
+        float: left;
+       // width: 149px;
+        height: 58px;
+       border-left: 1px solid #252947;
+
+    }
+    .header .nav ul li.last{
+        border-right: 1px solid #252947;
+        width: 148px;
+    }
+
+    .header .nav a{
+        float: left;
+        color: #818496;
+        text-decoration: none;
+        width: 149px;
+        line-height: 58px;
+        text-align: center;
+
+
+    }
+    .header .nav a:hover{
+        color: #E2E4ED;
+        background-color: #252947;
+    }
+    .header .nav ul li.current a{
+        color: #E2E4ED;
+        background-color: #252947;
+    }
+
+</style>
 </head>
 
+
 <body>
-    <center>
-    <a href="./Xcloud-platformv2/index.html">Xcloud网站跨屏云(用户管理端v2.0)原型设计</a><br>
-    <a href="./门户/index.html">RedcoreMobile门户原型设计-beta</a><br>
-    <a href="./demoAPP/index.html">查看SDK DemoAPP原型</a><br>
-    </center>
+
+    <div class="header">
+        <div class="inner_c">
+            <h1 class="logo"><a href="index.html"> 肖俊全的个人站点</a>
+
+            </h1>
+            <div class="nav">
+                <ul>
+                    <li class="current">
+                        <a href="#">首页</a>
+                    </li>
+                    <li><a href="./project/project1.html">项目一</a></li>
+                    <li><a href="./project/project2.html">项目二</a></li>
+                    <li><a href="./project/project3.html">项目三</a></li>
+                    <li class="last"><a href="./AboutMe/about.html">关于我</a></li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="contet">
+                <div class="inner_c">
+                    <div class="left">
+                        <h3>白皮书/产品PPT</h3>
+                        <ul>
+                            <li><a href="./products-doc/sdk/红芯移动SDK白皮书V1.0.pdf">红芯移动SDK白皮书V1.0</a></li>
+                            <li><a href="./products-doc/sdk/红芯RedcoreSDK产品介绍PPTV1.2.pdf">红芯RedcoreSDK产品介绍PPTV1.2</a></li>
+                            <li><a href="./products-doc/redcoremobile/Enterplorer产品白皮书V2.0.pdf">红芯移动办公平台产品白皮书V2.0</a></li>
+                            <li><a href="./products-doc/redcoremobile/红芯云适配产品介绍%20v1.0-beta.2.pdf">红芯云适配产品介绍 v1.0-beta.2</a></li>
+                            <li><a href="./products-doc/xcloud/Xcloud网站跨屏云产品白皮书V1.1.pdf">Xcloud网站跨屏云产品介绍</a></li>
+                            <li><a href="./products-doc/xcloud/Xcloud网站跨屏云产品介绍.pdf">Xcloud网站跨屏云产品介绍</a></li>
+                        </ul>
+                    </div>
+                    <div class="center">
+                        <h3>产品原型</h3>
+                        <ul>
+                            <li><a href="./Xcloud-platformv2/index.html">Xcloud网站跨屏云(用户管理端v2.0)原型设计</a></li>
+                            <li><a href="./门户/index.html">RedcoreMobile门户原型设计-beta</a></li>
+                            <li><a href="./demoAPP/index.html">查看SDK DemoAPP原型</a></li>
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <h3>产品使用手册</h3>
+                        <ul>
+                            <li><a href="./products-doc/sdk/RedcoreManagerLite管控平台使用手册V1.0.pdf">RedcoreManagerLite管控平台使用手册V1.0</a></li>
+                            <li><a href="./products-doc/redcoremobile/Enterplorer管理员手册V1.3.doc">Enterplorer管理员手册V1.3</a></li>
+                            <li><a href="http://developer.yunshipei.com/sdk/">SDK在线集成文档(外链)</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+
 </body>
 </html>
