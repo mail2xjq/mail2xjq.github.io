@@ -1,3 +1,2 @@
-# mail2xjq.github.io
-# mail2xjq.github.io
-# mail2xjq.github.io
+肖俊全的个人临时站点。
+用于展现个人项目或用于测试
